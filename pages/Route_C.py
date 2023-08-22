@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit_folium
 import folium
 from folium.features import Marker, Popup
 import pandas as pd
