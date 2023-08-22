@@ -1,7 +1,14 @@
-streamlit-folium
-folium>=0.13
-streamlit
-pandas
-numpy
+folium==0.13.0
+geemap
+ffmpeg-python
 geopandas
+pandas
+leafmap>=0.18.6
+owslib
+palettable
+plotly
+streamlit
+streamlit-bokeh-events
+streamlit-folium
+altair<5
 
