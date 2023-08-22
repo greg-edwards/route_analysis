@@ -25,15 +25,15 @@ st.sidebar.info(
 )
 
 #import route geometry
-route_c = gpd.read_file(r"C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\Service options\01 Route modifications\Route C\route_c.geojson")
-route_ca = gpd.read_file(r"C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\Service options\01 Route modifications\Route C\route_ca.geojson")
-route_cb = gpd.read_file(r"C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\Service options\01 Route modifications\Route C\route_cb.geojson")
+route_c = gpd.read_file(r"C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\01 Service options assessment\01 Route modifications\Route C\route_c.geojson")
+route_ca = gpd.read_file(r"C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\01 Service options assessment\01 Route modifications\Route C\route_ca.geojson")
+route_cb = gpd.read_file(r"C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\01 Service options assessment\01 Route modifications\Route C\route_cb.geojson")
 
 #import stop geometry
-route_stops = gpd.read_file(r'C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\Service options\01 Route modifications\Route C\stops_routes.geojson')
+route_stops = gpd.read_file(r'C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\01 Service options assessment\01 Route modifications\Route C\stops_routes.geojson')
 
 #import route data
-route_data = pd.read_excel(r'C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\Service options\01 Route modifications\Route C\route_C_options.xlsx')
+route_data = pd.read_excel(r'C:\Users\GSE1\Beca\3813283 - PT Services and Infrastructure SSBC - Documents\Technical - Working Files\01 SSBC\05 Shortlist\01 Service options assessment\01 Route modifications\Route C\route_C_options.xlsx')
 
 #select stops by route
 route_c_stops = route_stops.loc[route_stops['lines'].str.contains("C - Existing"), "geometry"]                       
