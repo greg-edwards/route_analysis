@@ -1,11 +1,12 @@
 import streamlit as st
+from streamlit_folium import st_folium
 import folium
 from folium.features import Marker, Popup
 import pandas as pd
 import numpy as np
 import geopandas as gpd
 import leafmap
-from streamlit_folium import st_folium
+
 
 st.set_page_config(layout="wide")
 st.sidebar.image('https://becagroup.sharepoint.com/sites/ClientsandMarkets/Images1/Market%20Profile%20&%20Brand/Beca%20Brand%20&%20Standards/Beca%20Logo%20Black%20PNG.png?csf=1&web=1&e=p6QEq9&cid=d89ac465-29af-4979-83d9-a76c21e84693', width=150, output_format="auto")
