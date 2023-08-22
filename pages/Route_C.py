@@ -1,10 +1,10 @@
 import streamlit as st
+import folium
 from folium.features import Marker, Popup
 import pandas as pd
 import numpy as np
 import geopandas as gpd
 import leafmap
-import folium
 from streamlit_folium import st_folium
 
 st.set_page_config(layout="wide")
