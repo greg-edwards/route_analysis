@@ -1,4 +1,3 @@
-from msilib.schema import Icon
 from turtle import color
 import folium
 import streamlit as st
