@@ -1,4 +1,4 @@
-streamlit_folium
+streamlit-folium
 folium>=0.13
 streamlit
 pandas
