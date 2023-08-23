@@ -1,4 +1,4 @@
-folium==0.13.0
+folium==0.14.0
 geemap
 ffmpeg-python
 geopandas
