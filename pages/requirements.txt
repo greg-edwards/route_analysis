@@ -1,9 +1,0 @@
-streamlit
-folium
-folium.features
-pandas
-numpy
-geopandas
-leafmap
-streamlit_folium
-
