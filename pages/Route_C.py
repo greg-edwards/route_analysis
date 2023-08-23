@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import geopandas as gpd
 import leafmap
+import openpyxl
 
 from streamlit_folium import st_folium
 
